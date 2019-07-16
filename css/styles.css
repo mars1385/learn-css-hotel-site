@@ -77,6 +77,9 @@ p {
 	color: #333;
 }
 
+.clear {
+	clear: both;
+}
 /* navbar */
 #navbar {
 	background: #333;
@@ -160,4 +163,25 @@ p {
 
 #home-info .info-content p {
 	padding-bottom: 30px;
+}
+
+/* features */
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+
+.box i {
+	margin-bottom: 10px;
+}
+
+/* main footer */
+
+#main-footer {
+	text-align: center;
+	background: #444;
+	color: #fff;
+	padding: 20px;
 }
